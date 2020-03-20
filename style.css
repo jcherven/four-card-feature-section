@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-primary {
+  font-weight: 400;
+  color: gray;
+}
+
+.title-secondary {
+  font-weight: 600;
+}
+
+.text-body {
+  color: gray;
+  font-weight: 200;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 17px 32px -7px rgba(0, 0, 0, 0.49);
+  border-radius: 5px;
+  border: 0px solid #000000;
+}
+
+#card-north {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#card-west {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+#card-east {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+#card-south {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: gray;
+  font-weight: 200;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
