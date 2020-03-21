@@ -6,45 +6,84 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 95vh;
-  max-height: 80rem;
+@media screen and (max-width: 66.99rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .title-primary {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    font-size: 2.5rem;
+  }
+
+  .title-secondary {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 2.5rem;
+    margin-top: -1rem;
+  }
+
+  .text-body {
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 30rem;
+    margin: auto;
+  }
 }
 
-.title-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+@media screen and (min-width: 67rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    max-height: 80rem;
+  }
+
+  .title-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .title-primary {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    font-size: 3.6rem;
+  }
+
+  .title-secondary {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 3.6rem;
+    margin-top: -1.5rem;
+  }
+
+  .text-body {
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 50rem;
+    margin: auto;
+  }
 }
 
-.title-primary {
-  font-weight: 200;
-  color: hsl(234, 12%, 34%);
-  font-size: 3.6rem;
-}
-
-.title-secondary {
-  font-weight: 600;
-  color: hsl(234, 12%, 34%);
-  font-size: 3.6rem;
-  margin-top: -1.5rem;
-}
-
-.text-body {
-  text-align: center;
-  color: hsl(229, 6%, 66%);
-  font-size: 1.5rem;
-  font-weight: 400;
-  max-width: 50rem;
-  margin: auto;
-}
-
-.cards-container {
-  margin: auto;
-  display: flex;
-  max-width: 110rem;
+@media screen and (min-width: 67.1rem) {
+  .cards-container {
+    margin: auto;
+    display: flex;
+    max-width: 110rem;
+  }
 }
 
 .cards-col {
