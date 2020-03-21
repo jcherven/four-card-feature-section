@@ -42,9 +42,9 @@ body {
 }
 
 .content-wrapper {
-  max-width: 900px;
+  min-width: 900;
   margin: auto;
-  border: black solid 1px;
+  /* border: black solid 1px; */
 }
 
 .title-text-wrapper {
@@ -78,10 +78,23 @@ body {
   margin: auto;
 }
 
-.cards-wrapper {
-  margin-top: 30px;
+.cards-container {
+  margin: auto;
+  height: 100fr;
+  display: flex;
+  flex-direction: row;
 }
-.cards-wrapper > div {
+
+.cards-container > div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.cards-container > div > div {
+  margin: 20px;
   padding: 20px;
   box-shadow: 0px 17px 32px -7px rgba(0, 0, 0, 0.49);
   border-radius: 5px;
