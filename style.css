@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
   /* display: flex; */
   /* flex-direction: column; */
 }
@@ -47,7 +48,7 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: space-between;
     padding-top: 2rem;
     height: 99vh;
     max-height: 90rem;
@@ -56,29 +57,30 @@ body {
   .title-text-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
-    font-size: 2.3vw;
   }
 
   .title-primary {
     font-weight: 200;
     color: hsl(234, 12%, 34%);
-    font-size: inherit;
+    font-size: 3.6rem;
   }
 
   .title-secondary {
     font-weight: 600;
     color: hsl(234, 12%, 34%);
-    font-size: inherit;
+    font-size: 3.6rem;
     margin-top: -1.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .text-body {
     text-align: center;
     color: hsl(229, 6%, 66%);
-    font-size: 1vw;
+    font-size: 1.5rem;
     font-weight: 400;
-    max-width: 36vw;
+    max-width: 50rem;
     margin: auto;
   }
 
