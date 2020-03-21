@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <title>Frontend Mentor | Four card feature section</title>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
 
-  <body>
-    <div class="container">
-      <div class="title-text-wrapper">
-        <div class="title-text-primary">
-          <span class="title-primary">Reliable, efficient delivery</span>
-          <span class="title-secondary">Powered by Technology</span>
-        </div>
-        <span class="text-body">
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
-        </span>
-      </div>
+  <title>Frontend Mentor | Four card feature section</title>
+</head>
 
-      <div class="cards-container">
-        <div class="cards-col1">
-          <div class="card" id="card-west">
+<body>
+  <div class="container">
+    <div class="title-text-wrapper">
+      <span class="title-primary">Reliable, efficient delivery</span>
+      <span class="title-secondary">Powered by Technology</span>
+    </div>
+
+    <span class="text-body">
+      Our Artificial Intelligence powered tools use millions of project data
+      points to ensure that your project is successful
+    </span>
+
+    <div class="cards-container">
+      <div class="cards-col">
+        <div class="card">
+          <div class="colorbar" id="cyan"></div>
+          <div class="card-content">
             <h3 class="card-title">
               Supervisor
             </h3>
@@ -48,9 +42,12 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="cards-col2">
-          <div class="card" id="card-north">
+      <div class="cards-col">
+        <div class="card">
+          <div class="colorbar" id="red"></div>
+          <div class="card-content">
             <h3 class="card-title">
               Team Builder
             </h3>
@@ -62,8 +59,11 @@
               <img src="./images/icon-team-builder.svg" alt="" />
             </div>
           </div>
+        </div>
 
-          <div class="card" id="card-south">
+        <div class="card">
+          <div class="colorbar" id="orange"></div>
+          <div class="card-content">
             <h3 class="card-title">
               Karma
             </h3>
@@ -75,9 +75,12 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="cards-col3">
-          <div class="card" id="card-east">
+      <div class="cards-col">
+        <div class="card">
+          <div class="colorbar" id="blue"></div>
+          <div class="card-content">
             <h3 class="card-title">
               Calculator
             </h3>
@@ -91,14 +94,7 @@
         </div>
       </div>
     </div>
+  </div>
+</body>
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
-  </body>
-</html>
+</html
