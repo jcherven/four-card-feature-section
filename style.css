@@ -93,6 +93,8 @@ body {
 }
 
 .cards-container > div > .card {
+  display: flex;
+  flex-direction: column;
   margin: 16px;
   padding-left: 25px;
   padding-right: 25px;
@@ -121,12 +123,17 @@ body {
 .card-title {
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  margin-bottom: -10px;
 }
 
 .card-text {
   color: hsl(229, 6%, 66%);
   font-weight: 400;
   font-size: 13px;
+}
+
+.card-image {
+  align-self: flex-end;
 }
 
 footer {
